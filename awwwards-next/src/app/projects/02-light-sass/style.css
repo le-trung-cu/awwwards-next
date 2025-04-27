@@ -1,0 +1,57 @@
+.gradient-01 {
+  background-image: linear-gradient(to bottom, #000, #001E7F);
+}
+
+.gradient-02 {
+  background-image: radial-gradient(closest-side, #183EC2, #EAEEFE);
+}
+
+.gradient-03 {
+  background-image: linear-gradient(to bottom, #FFFFFF, #D2DCFF);
+
+}
+
+.gradient-04 {
+  background-image: linear-gradient(to right, #DD7DFF, #E1CD86 20%, #8BCB92 40%, #71C2EF 60%, #3BFFFF 80%, #DD7DFF);
+}
+
+.shadow-01 {
+  box-shadow: 0 7px 14px #EAEAEA;
+}
+
+.animate-bg-1 {
+  background-position-x: 0%;
+  transition: background-position-x 3s;
+  animation: animate-bg 1.2s ease-in-out infinite;
+}
+
+@keyframes animate-bg {
+  0% {
+    background-position-x: 0%;
+  }
+
+  100% {
+    background-position-x: 200%;
+  }
+}
+
+.animate-testimonials-1 {
+  animation: animate-testimonials 5s linear infinite;
+}
+.animate-testimonials-2 {
+  animation: animate-testimonials 10s linear infinite reverse;
+}
+
+.animate-testimonials-3 {
+  animation: animate-testimonials 17s linear infinite;
+}
+
+@keyframes animate-testimonials {
+  0% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
