@@ -146,3 +146,9 @@
   --secondary: #222222;
   --muted: #BCBCBC;
 }
+
+[data-theme="project-03-ai-startup"] {
+  --background: #000;
+  --font-sans: var(--font-inter);
+  --primary: #8C44FF;
+}

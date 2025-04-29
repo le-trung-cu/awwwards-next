@@ -1,0 +1,76 @@
+.gradient-01 {
+  background-image: radial-gradient(200% 100% at -10% 6%, #fff, #fff 50%, #4a208a80);
+}
+
+.gradient-02 {
+  background-image: radial-gradient(60% 60% at 22% 15%, #fff, #B894FF 38%, #180042);
+  box-shadow: -20px -20px 80px rgb(255, 255, 255, 0.1),
+    -20px -20px 50px rgb(255, 255, 255, 0.5),
+    0px 0px 50px rgb(140, 69, 255);
+}
+
+.gradient-03 {
+  /* background-color: #fff; */
+  background-image:
+    linear-gradient(to bottom, #000, transparent 10%, transparent 90%, #000),
+    radial-gradient(at center, rgba(140, 69, 255, 0.5) 15%, rgb(14, 0, 36, 0.5) 78%, transparent);
+}
+
+.gradient-04 {
+  background-image: linear-gradient(to left, rgba(140, 69, 255, .3), #000000 150%);
+}
+
+.animate-hero {
+  animation: animate-hero 50s linear infinite;
+}
+
+@keyframes animate-hero {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+  
+}
+
+.animate-logo-ticker {
+  animation: animate-logo-ticker 10s linear infinite;
+}
+
+@keyframes animate-logo-ticker {
+  0% {
+    transform: translateX(-50%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-testimonials {
+  animation: animate-testimonials 10s linear infinite;
+}
+
+@keyframes animate-testimonials {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-call-to-action {
+  animation: animate-call-to-action 60s linear infinite;
+}
+
+@keyframes animate-call-to-action {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 800px;
+  }
+  
+}
